@@ -1,6 +1,10 @@
-# Deploy log drainer serverless #
+# Heroku log drainer #
 
-1. Configure aws-cli
+This little cloudfunction can forward logs from heroku to gcp's stackdriver
+
+## Deploy log drainer with serverless ##
+
+1. Configure gcloud tools
 2. Install serverless
 
     npm install -g serverless
